@@ -122,7 +122,7 @@ Check out the following scripts that are intended to be run in CI to create the 
 
 You can use this sample [github action](./.github/workflows/deploy-lambdas.yml) to deploy the Lambda functions, together with their layers. Here's a summary of what it does:
 
-- Build `node_modules` Kambda layer
+- Build `node_modules` Lambda layer
 - Build `@prisma/*` Lambda layer
 - Build `@libs/*` Lambda layer
 - Build lambda functions
